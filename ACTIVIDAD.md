@@ -4,10 +4,22 @@ Es hora de poner manos a la acción con ElevenLabs. En esta fase puedes usar Ele
 
 ## Cómo empezar
 
-Elige una de estas dos opciones (ambas están detalladas en [DEMO.md](DEMO.md)):
+Elige una de estas dos opciones:
 
 1. **Clonar el repositorio.** Ya viene con todo preparado.
-2. **Usar el prompt de Cursor.** Copia el prompt que está en `DEMO.md` (sección "Dos formas de hacer esta demo") y pégalo en la ventana de chat de Cursor para que instale automáticamente las dependencias.
+2. **Usar el prompt de Cursor.** Copia el siguiente prompt y pégalo en la ventana de chat de Cursor, en una carpeta vacía, para que el agente cree el proyecto e instale automáticamente las dependencias:
+
+```
+Crea un proyecto Python mínimo en esta carpeta para conectarme con la API de ElevenLabs y probar Text-to-Speech. Necesito:
+
+- .gitignore (excluyendo .env, venv/, __pycache__/, *.pyc, *.mp3)
+- requirements.txt con elevenlabs y python-dotenv
+- .env.example con la variable ELEVENLABS_API_KEY vacía
+- test_connection.py que cargue la API key desde .env con python-dotenv, cree un cliente ElevenLabs, genere un audio corto de prueba con client.text_to_speech.convert() usando el modelo eleven_multilingual_v2, lo guarde como test_output.mp3, y maneje errores comunes (key faltante, key inválida/401) con mensajes claros
+- README.md con instrucciones de setup (crear entorno virtual, instalar dependencias, configurar .env, ejecutar el script)
+
+Después crea el entorno virtual, instala las dependencias, y avísame cuando necesites que yo pegue mi API key real en el archivo .env para poder ejecutar la prueba.
+```
 
 Después, en cualquiera de las dos opciones:
 
