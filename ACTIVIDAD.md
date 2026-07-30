@@ -28,6 +28,8 @@ Después, en cualquiera de las dos opciones:
 3. Corre el script de Python para generar un audio de prueba.
 4. Listo — ya puedes empezar a experimentar con las skills de ElevenLabs.
 
+
+
 ## Objetivo de la actividad
 
 Convertir la narración elaborada previamente en la fase 1, en contenido para redes sociales.
@@ -40,9 +42,11 @@ Convertir la narración elaborada previamente en la fase 1, en contenido para re
 - Por qué el tema es importante.
 - Un cierre: formas en que personas de distintos backgrounds pueden contribuir o aprender más sobre AI Safety.
 
+
+
 ## Dónde entregar
 
-Coloca tu output en la carpeta [`Literature Review Output`](./Literature%20Review%20Output).
+Coloca tu output en la carpeta `[Literature Review Output](./Literature%20Review%20Output)`.
 
 ## Recomendaciones
 
